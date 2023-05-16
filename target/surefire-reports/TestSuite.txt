@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 14, Time elapsed: 12.89 s <<< FAILURE! - in TestSuite
+open_browser(Test_Class.Test_Class1_login)  Time elapsed: 5.744 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Test_Class.Test_Class1_login.open_browser(Test_Class1_login.java:57)
+
+open_browser(Test_Class.Test_class2)  Time elapsed: 2.994 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Test_Class.Test_class2.open_browser(Test_class2.java:53)
+
+open_browser(Test_Class.Test_class3_VIIPS_Sell)  Time elapsed: 1.837 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Test_Class.Test_class3_VIIPS_Sell.open_browser(Test_class3_VIIPS_Sell.java:51)
+
+open_browser(Test_Class.Test_class4_VIIPS_Buy)  Time elapsed: 1.812 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Test_Class.Test_class4_VIIPS_Buy.open_browser(Test_class4_VIIPS_Buy.java:52)
+
