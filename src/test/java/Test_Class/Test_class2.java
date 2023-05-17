@@ -152,7 +152,7 @@ public class Test_class2 extends Base_class
 
 		pom5_cretad.Enter_Amount();
 		extentTest.info("Entered price");
-		//Thread.sleep(2000);
+		//Thread.sleep(1000);
 
 		pom5_cretad.click_on_min_amount();
 		//Thread.sleep(2000);

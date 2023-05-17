@@ -196,6 +196,7 @@ public class Test_class4_VIIPS_Buy   extends Base_class
 			//Thread.sleep(2000);
 
 			pom6_cretad.Enter_in_remark();
+			extentTest.info("Remark Added");
 			//Thread.sleep(2000);
 
 			pom6_cretad.create_buy_ad();
