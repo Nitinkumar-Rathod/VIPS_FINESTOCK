@@ -1,5 +1,6 @@
 package Libriary_File;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
@@ -50,6 +51,7 @@ public class Base_class {
 
 		public void initilize_browser(ITestContext Context) throws InterruptedException 
 		{
+			
 			WebDriverManager.chromedriver().setup(); //.exe file is there or not
 
 			ChromeOptions options=new ChromeOptions();
@@ -60,6 +62,8 @@ public class Base_class {
 			driver.get("https://staging.vipsfinstock.com/login");
 
 			driver.manage().window().maximize();
+			
+			Logger logger = (Logger) LogManager.getLogger("Base_class");
 
 			driver.manage().timeouts() .implicitlyWait(Duration.ofSeconds(20));
 
