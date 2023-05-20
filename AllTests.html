@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">VIPS Tests report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 19, 2023 01:43:34 PM</span></a>
+<a href="#"><span class="badge badge-primary">May 19, 2023 06:45:00 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('device-view')">
@@ -77,6 +82,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -96,25 +102,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author="Nitinkumar"
           tag=""
           device="chrome113">
           <div class="test-detail">
             <p class="name">Create_Sell_Ad</p>
             <p class="text-sm">
-              <span>1:43:39 PM</span> / <span>00:00:28:639</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:45:07 PM</span> / <span>00:00:58:144</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Create_Sell_Ad</h5>
-<span class='badge badge-success'>05.19.2023 1:43:39 PM</span>
-<span class='badge badge-danger'>05.19.2023 1:44:07 PM</span>
-<span class='badge badge-default'>00:00:28:639</span>
+<h5 class="test-status text-fail">Create_Sell_Ad</h5>
+<span class='badge badge-success'>05.19.2023 6:45:07 PM</span>
+<span class='badge badge-danger'>05.19.2023 6:46:05 PM</span>
+<span class='badge badge-default'>00:00:58:144</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -122,85 +128,123 @@
 <div class="m-t-15"><span class="badge badge-pill badge-default">Nitinkumar</span>
 <span class="badge badge-pill badge-default">chrome113</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91906\eclipse-workspace\VIPS_Finestock\.\Screenshots\19052023184605\Create_Sell_Ad_Create_Sell_Ad.jpg' src="C:\Users\91906\eclipse-workspace\VIPS_Finestock\.\Screenshots\19052023184605\Create_Sell_Ad_Create_Sell_Ad.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:40 PM</td>
+        <td>6:45:09 PM</td>
         <td>
           Click on P2P
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:48 PM</td>
+        <td>6:45:17 PM</td>
         <td>
           select check box
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:53 PM</td>
+        <td>6:45:22 PM</td>
         <td>
           Click on Confirm
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:56 PM</td>
+        <td>6:45:24 PM</td>
         <td>
           click_on_CrreateAd
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:56 PM</td>
+        <td>6:45:25 PM</td>
         <td>
           Click on Next Button
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:56 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:45:45 PM</td>
         <td>
-          Amount Entered
+          Create_VIPS_Buy_Ad test case is fail due tono such element: Unable to locate element: {"method":"xpath","selector":"((//div[@class='MuiStack-root css-f9n3dw'])[1]//input)[1]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c29585e181778f0b145461d07257f61d, findElement {using=xpath, value=((//div[@class='MuiStack-root css-f9n3dw'])[1]//input)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64847/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c29585e181778f0b145461d07257f61d
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:43:57 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:46:05 PM</td>
         <td>
-          Entered min and max amount
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:01 PM</td>
-        <td>
-          Payment method Added
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:04 PM</td>
-        <td>
-          Remark Entered
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:06 PM</td>
-        <td>
-          click on confirm Ad 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:44:07 PM</td>
-        <td>
-          Create_Sell_Ad is passed
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='MuiTypography-root MuiTypography-body2 css-7i2tvn']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c29585e181778f0b145461d07257f61d, findElement {using=xpath, value=//p[@class='MuiTypography-root MuiTypography-body2 css-7i2tvn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64847/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c29585e181778f0b145461d07257f61d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at Test_Class.Test_Class1_login.Create_Sell_Ad(Test_Class1_login.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -215,7 +259,7 @@
           <div class="test-detail">
             <p class="name">Create_BUY_Ad</p>
             <p class="text-sm">
-              <span>1:44:09 PM</span> / <span>00:00:24:826</span>
+              <span>6:46:07 PM</span> / <span>00:00:25:084</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -224,9 +268,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Create_BUY_Ad</h5>
-<span class='badge badge-success'>05.19.2023 1:44:09 PM</span>
-<span class='badge badge-danger'>05.19.2023 1:44:34 PM</span>
-<span class='badge badge-default'>00:00:24:826</span>
+<span class='badge badge-success'>05.19.2023 6:46:07 PM</span>
+<span class='badge badge-danger'>05.19.2023 6:46:32 PM</span>
+<span class='badge badge-default'>00:00:25:084</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -240,98 +284,98 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:11 PM</td>
+        <td>6:46:09 PM</td>
         <td>
           click on P2P
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:24 PM</td>
+        <td>6:46:22 PM</td>
         <td>
           click on confirm
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:25 PM</td>
+        <td>6:46:23 PM</td>
         <td>
           click on create ad
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:25 PM</td>
+        <td>6:46:23 PM</td>
         <td>
           click on Buy
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:25 PM</td>
+        <td>6:46:24 PM</td>
         <td>
           Entered price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:26 PM</td>
+        <td>6:46:24 PM</td>
         <td>
           click on Next
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:26 PM</td>
+        <td>6:46:24 PM</td>
         <td>
           Entered price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:26 PM</td>
+        <td>6:46:24 PM</td>
         <td>
           Entered Minimum price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:26 PM</td>
+        <td>6:46:25 PM</td>
         <td>
           Entered Maaximum price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:30 PM</td>
+        <td>6:46:28 PM</td>
         <td>
           Add payment Method
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:30 PM</td>
+        <td>6:46:28 PM</td>
         <td>
           Click on next
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:32 PM</td>
+        <td>6:46:31 PM</td>
         <td>
           Entered Remark
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:32 PM</td>
+        <td>6:46:31 PM</td>
         <td>
           click on create Ad button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:44:34 PM</td>
+        <td>6:46:32 PM</td>
         <td>
           Create_BUY_Ad is passed
         </td>
@@ -348,7 +392,7 @@
           <div class="test-detail">
             <p class="name">Create_VIPS_Sell_Ad</p>
             <p class="text-sm">
-              <span>1:44:35 PM</span> / <span>00:00:22:578</span>
+              <span>6:46:34 PM</span> / <span>00:00:22:254</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -357,9 +401,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Create_VIPS_Sell_Ad</h5>
-<span class='badge badge-success'>05.19.2023 1:44:35 PM</span>
-<span class='badge badge-danger'>05.19.2023 1:44:58 PM</span>
-<span class='badge badge-default'>00:00:22:578</span>
+<span class='badge badge-success'>05.19.2023 6:46:34 PM</span>
+<span class='badge badge-danger'>05.19.2023 6:46:56 PM</span>
+<span class='badge badge-default'>00:00:22:254</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -373,70 +417,70 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:37 PM</td>
+        <td>6:46:36 PM</td>
         <td>
           click on P2P
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:47 PM</td>
+        <td>6:46:46 PM</td>
         <td>
           click on check box and confirm
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:49 PM</td>
+        <td>6:46:48 PM</td>
         <td>
           click on VIPS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:49 PM</td>
+        <td>6:46:48 PM</td>
         <td>
           entered price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:51 PM</td>
+        <td>6:46:49 PM</td>
         <td>
           entered vips amount
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:51 PM</td>
+        <td>6:46:50 PM</td>
         <td>
           entered min and max amount
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:55 PM</td>
+        <td>6:46:53 PM</td>
         <td>
           payment method selected
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:56 PM</td>
+        <td>6:46:55 PM</td>
         <td>
           click on next
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:44:56 PM</td>
+        <td>6:46:55 PM</td>
         <td>
           click on confire man create ad
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:44:58 PM</td>
+        <td>6:46:56 PM</td>
         <td>
           Create_VIPS_Sell_Ad is passed
         </td>
@@ -453,7 +497,7 @@
           <div class="test-detail">
             <p class="name">Create_VIPS_BUY_Ad</p>
             <p class="text-sm">
-              <span>1:44:59 PM</span> / <span>00:00:21:359</span>
+              <span>6:46:58 PM</span> / <span>00:00:21:735</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -462,9 +506,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Create_VIPS_BUY_Ad</h5>
-<span class='badge badge-success'>05.19.2023 1:44:59 PM</span>
-<span class='badge badge-danger'>05.19.2023 1:45:20 PM</span>
-<span class='badge badge-default'>00:00:21:359</span>
+<span class='badge badge-success'>05.19.2023 6:46:58 PM</span>
+<span class='badge badge-danger'>05.19.2023 6:47:20 PM</span>
+<span class='badge badge-default'>00:00:21:735</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -478,105 +522,105 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:01 PM</td>
+        <td>6:47:00 PM</td>
         <td>
           Click on P2P
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:12 PM</td>
+        <td>6:47:11 PM</td>
         <td>
           select check box and click on confirm
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:12 PM</td>
+        <td>6:47:11 PM</td>
         <td>
           Click on Create Ad
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:13 PM</td>
+        <td>6:47:12 PM</td>
         <td>
           Click on Buy
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:13 PM</td>
+        <td>6:47:12 PM</td>
         <td>
           Click on VIPS
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:14 PM</td>
+        <td>6:47:13 PM</td>
         <td>
           Entered price
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:14 PM</td>
+        <td>6:47:13 PM</td>
         <td>
           Click on Next
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:15 PM</td>
+        <td>6:47:14 PM</td>
         <td>
           Amount Entered
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:15 PM</td>
+        <td>6:47:14 PM</td>
         <td>
           Minimum Amount Entered
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:15 PM</td>
+        <td>6:47:15 PM</td>
         <td>
           Maximum Amount Entered
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:17 PM</td>
+        <td>6:47:16 PM</td>
         <td>
           select payment method
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:18 PM</td>
+        <td>6:47:17 PM</td>
         <td>
           click on next button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:19 PM</td>
+        <td>6:47:18 PM</td>
         <td>
           Remark Added
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:45:19 PM</td>
+        <td>6:47:19 PM</td>
         <td>
           clcik on create Ad
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:45:20 PM</td>
+        <td>6:47:20 PM</td>
         <td>
           Create_VIPS_Buy_Ad is passed
         </td>
@@ -595,10 +639,10 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view device-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
 <ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
@@ -606,15 +650,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">chrome113</p>
-<p class="duration text-sm">4 tests</p>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>chrome113</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -625,30 +669,81 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:43:39 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:45:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Create_Sell_Ad</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">chrome113</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome113</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:45:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>Create_Sell_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:09 PM</td>
+<td>18:46:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>Create_BUY_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:35 PM</td>
+<td>18:46:34 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>Create_VIPS_Sell_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:59 PM</td>
+<td>18:46:58 PM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='4'>Create_VIPS_BUY_Ad</a>
 </td>
@@ -676,7 +771,8 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>4</span>
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">Nitinkumar</p>
 <p class="duration text-sm">4 tests</p>
@@ -684,7 +780,8 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>Nitinkumar</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -695,30 +792,30 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:43:39 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:45:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>Create_Sell_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:09 PM</td>
+<td>18:46:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>Create_BUY_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:35 PM</td>
+<td>18:46:34 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>Create_VIPS_Sell_Ad</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:44:59 PM</td>
+<td>18:46:58 PM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='4'>Create_VIPS_BUY_Ad</a>
 </td>
@@ -740,25 +837,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 19, 2023 01:43:34 PM</h3>
+<h3>May 19, 2023 06:45:00 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 19, 2023 01:45:20 PM</h3>
+<h3>May 19, 2023 06:47:20 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>4</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -774,12 +871,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>4</b> tests passed
+<div><small data-tooltip='75%'>
+<b>3</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='25%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -797,10 +894,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='8%'><b>4</b> events passed</small></div>
+<div><small data-tooltip='6%'><b>3</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>46</b> others
+<small data-tooltip='4%'><b>2</b> events failed,
+<b data-tooltip='%'>41</b> others
 </small>
 </div>
 </div>
@@ -816,7 +913,7 @@
 </div></div>
 <script>
 var timeline = {
-"Create_Sell_Ad":28.639,"Create_BUY_Ad":24.826,"Create_VIPS_Sell_Ad":22.578,"Create_VIPS_BUY_Ad":21.359
+"Create_Sell_Ad":58.144,"Create_BUY_Ad":25.084,"Create_VIPS_Sell_Ad":22.254,"Create_VIPS_BUY_Ad":21.735
 };
 </script>
 <div class="row">
@@ -828,11 +925,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Nitinkumar</td>
-<td>4</td>
+<td>3</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>75%</td>
 </tr>
 </tbody>
 </table></div>
@@ -846,11 +943,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>chrome113</td>
-<td>4</td>
+<td>3</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>75%</td>
 </tr>
 </tbody>
 </table></div>
@@ -879,8 +976,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 4,
-failParent: 0,
+passParent: 3,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -896,11 +993,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 4,
-failEvents: 0,
+passEvents: 3,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 46
+infoEvents: 41
 };
 </script>        </div>
       </div>
