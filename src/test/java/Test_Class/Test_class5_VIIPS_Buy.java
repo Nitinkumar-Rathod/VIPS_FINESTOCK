@@ -8,7 +8,11 @@ public class Test_class5_VIIPS_Buy {
 		
 		System.out.println("Nitinkumar Rathod");
 		
-		System.out.println("Diapli");
+		System.out.println("Diapli GoluMoluji");
+		
+		System.out.println("Ladoba");
+		
+		System.out.println("Rathod");
 		
 	}
 
