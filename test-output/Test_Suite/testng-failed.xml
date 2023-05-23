@@ -17,4 +17,52 @@
       </class> <!-- Test_Class.Test_Class1_login -->
     </classes>
   </test> <!-- Create_Sell_Ad(failed) -->
+  <test thread-count="5" name="Create_BUY_Ad(failed)">
+    <parameter name="author" value="Nitinkumar"/>
+    <classes>
+      <class name="Test_Class.Test_class2">
+        <methods>
+          <include name="teardown"/>
+          <include name="Create_BUY_Ad"/>
+          <include name="Login"/>
+          <include name="generateExtentReports"/>
+          <include name="open_browser"/>
+          <include name="checkStatus"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- Test_Class.Test_class2 -->
+    </classes>
+  </test> <!-- Create_BUY_Ad(failed) -->
+  <test thread-count="5" name="Create_VIPS_Sell_Ad(failed)">
+    <parameter name="author" value="Nitinkumar"/>
+    <classes>
+      <class name="Test_Class.Test_class3_VIIPS_Sell">
+        <methods>
+          <include name="teardown"/>
+          <include name="open_browser"/>
+          <include name="generateExtentReports"/>
+          <include name="checkStatus"/>
+          <include name="Login"/>
+          <include name="Create_VIPS_Sell_Ad"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- Test_Class.Test_class3_VIIPS_Sell -->
+    </classes>
+  </test> <!-- Create_VIPS_Sell_Ad(failed) -->
+  <test thread-count="5" name="Create_VIPS_BUY_Ad(failed)">
+    <parameter name="author" value="Nitinkumar"/>
+    <classes>
+      <class name="Test_Class.Test_class4_VIIPS_Buy">
+        <methods>
+          <include name="Login"/>
+          <include name="teardown"/>
+          <include name="generateExtentReports"/>
+          <include name="Create_VIPS_Buy_Ad"/>
+          <include name="open_browser"/>
+          <include name="checkStatus"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- Test_Class.Test_class4_VIIPS_Buy -->
+    </classes>
+  </test> <!-- Create_VIPS_BUY_Ad(failed) -->
 </suite> <!-- Failed suite [Test_Suite] -->

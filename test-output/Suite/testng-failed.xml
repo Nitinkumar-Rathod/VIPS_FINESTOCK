@@ -4,17 +4,17 @@
   <test thread-count="5" name="Test123(failed)">
     <parameter name="author" value="Nitinkumar"/>
     <classes>
-      <class name="Test_Class.Test_class3_VIIPS_Sell">
+      <class name="Test_Class.Test_Class1_login">
         <methods>
-          <include name="initialiseExtentReports"/>
-          <include name="checkStatus"/>
-          <include name="open_browser"/>
-          <include name="generateExtentReports"/>
           <include name="teardown"/>
+          <include name="Create_Sell_Ad"/>
           <include name="Login"/>
-          <include name="Create_VIPS_Sell_Ad"/>
+          <include name="generateExtentReports"/>
+          <include name="checkStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="open_browser"/>
         </methods>
-      </class> <!-- Test_Class.Test_class3_VIIPS_Sell -->
+      </class> <!-- Test_Class.Test_Class1_login -->
     </classes>
   </test> <!-- Test123(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Test_Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Create_Sell_Ad(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test123(failed)">
     <parameter name="author" value="Nitinkumar"/>
     <classes>
       <class name="Test_Class.Test_Class1_login">
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- Test_Class.Test_Class1_login -->
     </classes>
-  </test> <!-- Create_Sell_Ad(failed) -->
-</suite> <!-- Failed suite [Test_Suite] -->
+  </test> <!-- Test123(failed) -->
+</suite> <!-- Failed suite [Suite] -->

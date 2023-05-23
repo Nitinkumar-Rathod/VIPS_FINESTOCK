@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 13 13:28:08 IST 2023</td>
+<td>Started on:</td><td>Sat May 20 14:19:05 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>81 seconds (81404 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61967 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test_Class.Test_class3_VIIPS_Sell.Create_VIPS_Sell_Ad()'><b>Create_VIPS_Sell_Ad</b><br>Test class: Test_Class.Test_class3_VIIPS_Sell</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1d2nhay&quot; tabindex=&quot;-1&quot; type=&quot;submit&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1275, 680). Other element would receive the click: &lt;div class=&quot;MuiBox-root css-t5t3i0&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=113.0.5672.93)
+<td title='Test_Class.Test_Class1_login.Create_Sell_Ad()'><b>Create_Sell_Ad</b><br>Test class: Test_Class.Test_Class1_login</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class=&apos;MuiTypography-root MuiTypography-body2 css-7i2tvn&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7ab851425f40c2fa5a1eedb8cf8ec066, clickElement {id=CDD53855CEC2BA5984BD18CEB9DE6253_element_95}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65467/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7ab851425f40c2fa5a1eedb8cf8ec066)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
-Session ID: 7ab851425f40c2fa5a1eedb8cf8ec066
+Command: [b49380fe011e5a912cc809e04b65226e, findElement {using=xpath, value=//p[@class=&apos;MuiTypography-root MuiTypography-body2 css-7i2tvn&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53169/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b49380fe011e5a912cc809e04b65226e
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -92,23 +92,22 @@ Session ID: 7ab851425f40c2fa5a1eedb8cf8ec066
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at POM_Classes.Pom5_CreateAd.next_click(Pom5_CreateAd.java:88)
-	at Test_Class.Test_class3_VIIPS_Sell.Create_VIPS_Sell_Ad(Test_class3_VIIPS_Sell.java:211)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at Test_Class.Test_Class1_login.Create_Sell_Ad(Test_Class1_login.java:218)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace59930654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace59930654'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1d2nhay&quot; tabindex=&quot;-1&quot; type=&quot;submit&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1275, 680). Other element would receive the click: &lt;div class=&quot;MuiBox-root css-t5t3i0&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=113.0.5672.93)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1727379710", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1727379710'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class=&apos;MuiTypography-root MuiTypography-body2 css-7i2tvn&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7ab851425f40c2fa5a1eedb8cf8ec066, clickElement {id=CDD53855CEC2BA5984BD18CEB9DE6253_element_95}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65467/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7ab851425f40c2fa5a1eedb8cf8ec066)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
-Session ID: 7ab851425f40c2fa5a1eedb8cf8ec066
+Command: [b49380fe011e5a912cc809e04b65226e, findElement {using=xpath, value=//p[@class=&apos;MuiTypography-root MuiTypography-body2 css-7i2tvn&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91906\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53169/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b49380fe011e5a912cc809e04b65226e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,15 +119,11 @@ Session ID: 7ab851425f40c2fa5a1eedb8cf8ec066
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at POM_Classes.Pom5_CreateAd.next_click(Pom5_CreateAd.java:88)
-	at Test_Class.Test_class3_VIIPS_Sell.Create_VIPS_Sell_Ad(Test_class3_VIIPS_Sell.java:211)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at Test_Class.Test_Class1_login.Create_Sell_Ad(Test_Class1_login.java:218)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -158,8 +153,8 @@ Session ID: 7ab851425f40c2fa5a1eedb8cf8ec066
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>76</td>
-<td>Test_Class.Test_class3_VIIPS_Sell@410ae9a3</td></tr>
+<td>57</td>
+<td>Test_Class.Test_Class1_login@3faf2e7d</td></tr>
 </table><p>
 </body>
 </html>
