@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Test_Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Create_Sell_Ad(failed)">
-    <parameter name="author" value="Nitinkumar"/>
-    <classes>
-      <class name="Test_Class.Test_Class1_login">
-        <methods>
-          <include name="teardown"/>
-          <include name="Create_Sell_Ad"/>
-          <include name="Login"/>
-          <include name="generateExtentReports"/>
-          <include name="checkStatus"/>
-          <include name="initialiseExtentReports"/>
-          <include name="open_browser"/>
-        </methods>
-      </class> <!-- Test_Class.Test_Class1_login -->
-    </classes>
-  </test> <!-- Create_Sell_Ad(failed) -->
-  <test thread-count="5" name="Create_BUY_Ad(failed)">
-    <parameter name="author" value="Nitinkumar"/>
-    <classes>
-      <class name="Test_Class.Test_class2">
-        <methods>
-          <include name="teardown"/>
-          <include name="Create_BUY_Ad"/>
-          <include name="Login"/>
-          <include name="generateExtentReports"/>
-          <include name="open_browser"/>
-          <include name="checkStatus"/>
-          <include name="initialiseExtentReports"/>
-        </methods>
-      </class> <!-- Test_Class.Test_class2 -->
-    </classes>
-  </test> <!-- Create_BUY_Ad(failed) -->
   <test thread-count="5" name="Create_VIPS_Sell_Ad(failed)">
     <parameter name="author" value="Nitinkumar"/>
     <classes>

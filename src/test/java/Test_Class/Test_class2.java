@@ -2,6 +2,8 @@ package Test_Class;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -35,7 +37,9 @@ import POM_Classes.pom7_create_bye_Ad;
 public class Test_class2 extends Base_class
 
 {
-	
+	// create object  logger class
+	Logger logger = (Logger) LogManager.getLogger("Test_class2");
+
 
 	public Login_Pom1 loginp1 ;
 	public pom2_Home  Homep2;
@@ -51,6 +55,8 @@ public class Test_class2 extends Base_class
 	public void open_browser(ITestContext Context) throws InterruptedException {
 
 		initilize_browser (Context);
+
+		logger.info("Browser open sucessfully....");
 
 		loginp1 = new Login_Pom1 (driver);
 
@@ -75,10 +81,15 @@ public class Test_class2 extends Base_class
 	public void Login () throws IOException {
 
 		loginp1.enter_usr_name(Libriary_File.Utility_class.get_datafrom_propertyfile("UN"));
+		logger.info("Entered Username....!");
 
 		loginp1.enter_Pass(Libriary_File.Utility_class.get_datafrom_propertyfile("PSW"));
+		logger.info("Entered Passward....!");
 
 		loginp1.click_on_login();
+		logger.info("Login sucessful....!");
+
+
 
 	}
 	/*
@@ -114,104 +125,112 @@ public class Test_class2 extends Base_class
 	public void Create_BUY_Ad() throws InterruptedException, EncryptedDocumentException, IOException {
 
 		try {
-		CretAd.click_on_P2P();
-		extentTest.info("click on P2P");
-		Thread.sleep(8000);
+			CretAd.click_on_P2P();
+			extentTest.info("click on P2P");
+			logger.info("sucessfully click on P2P....");
+			Thread.sleep(8000);
 
-		CretAd.Click_on_check_box();
-		Thread.sleep(5000);
+			CretAd.Click_on_check_box();
+			Thread.sleep(5000);
 
-		CretAd.Click_on_confirm();
-		extentTest.info("click on confirm");
-		Thread.sleep(1000);
+			CretAd.Click_on_confirm();
+			extentTest.info("click on confirm");
+			logger.info("Click on confirm button...!");
+			Thread.sleep(1000);
 
-		clickCretAd.click_on_CrreateAd();
-		extentTest.info("click on create ad");
-		//Thread.sleep(2000);
+			clickCretAd.click_on_CrreateAd();
+			extentTest.info("click on create ad");
+			//Thread.sleep(2000);
 
-		clickCretAd_buy.click_on_Dropdown();
-		//Thread.sleep(2000);
+			clickCretAd_buy.click_on_Dropdown();
+			//Thread.sleep(2000);
 
-		clickCretAd_buy.click_on_buy();
-		extentTest.info("click on Buy");
-		//Thread.sleep(2000);
+			clickCretAd_buy.click_on_buy();
+			extentTest.info("click on Buy");
+			logger.info("sucessfully click on buy button..!");
+			//Thread.sleep(2000);
 
-		clickCretAd.click_price();
-		//Thread.sleep(2000);
+			clickCretAd.click_price();
+			//Thread.sleep(2000);
 
-		clickCretAd.enter_price();
-		extentTest.info("Entered price");
-		//Thread.sleep(2000);
+			clickCretAd.enter_price();
+			extentTest.info("Entered price");
+			//Thread.sleep(2000);
 
-		clickCretAd.click_on_next();
-		extentTest.info("click on Next");
-		//Thread.sleep(3000);
-		
-		pom5_cretad.click_amount();
-		//Thread.sleep(3000);
+			clickCretAd.click_on_next();
+			extentTest.info("click on Next");
+			//Thread.sleep(3000);
 
-		pom5_cretad.Enter_Amount();
-		extentTest.info("Entered price");
-		//Thread.sleep(1000);
+			pom5_cretad.click_amount();
+			//Thread.sleep(3000);
 
-		pom5_cretad.click_on_min_amount();
-		//Thread.sleep(2000);
+			pom5_cretad.Enter_Amount();
+			extentTest.info("Entered price");
+			//Thread.sleep(1000);
 
-		pom5_cretad.Enter_minAmount();
-		extentTest.info("Entered Minimum price");
-		//Thread.sleep(2000);
+			pom5_cretad.click_on_min_amount();
+			//Thread.sleep(2000);
 
-		pom5_cretad.click_on_max_amount();
-		//Thread.sleep(2000);
+			pom5_cretad.Enter_minAmount();
+			extentTest.info("Entered Minimum Amount");
+			logger.info("min amount Entered sucessfully");
+			//Thread.sleep(2000);
 
-		pom5_cretad.Enter_MaxAmount();
-		extentTest.info("Entered Maaximum price");
-		//Thread.sleep(2000);
+			pom5_cretad.click_on_max_amount();
+			//Thread.sleep(2000);
 
-		pom5_cretad.click_payment_method();
-		//Thread.sleep(2000);
+			pom5_cretad.Enter_MaxAmount();
+			extentTest.info("Entered Maaximum Amount");
+			logger.info("min amount Entered sucessfully");
 
-		pom5_cretad.click_dropdown();
-		Thread.sleep(2000);
+			//Thread.sleep(2000);
 
-		pom5_cretad.select_payment_method();
-		Thread.sleep(1000);
+			pom5_cretad.click_payment_method();
+			//Thread.sleep(2000);
 
-		pom5_cretad.Add_method();
-		extentTest.info("Add payment Method");
-		//Thread.sleep(3000);
+			pom5_cretad.click_dropdown();
+			Thread.sleep(2000);
 
-		pom5_cretad.next_click();
-		extentTest.info("Click on next");
-		Thread.sleep(2000);
+			pom5_cretad.select_payment_method();
+			Thread.sleep(1000);
 
-		pom6_cretad.click_on_remark();
-		//Thread.sleep(2000);
+			pom5_cretad.Add_method();
+			extentTest.info("Add payment Method");
+			logger.info("Payment method added sucessfully....!");
+			//Thread.sleep(3000);
 
-		pom6_cretad.Enter_in_remark();
-		extentTest.info("Entered Remark");
-		//Thread.sleep(2000);
+			pom5_cretad.next_click();
+			extentTest.info("Click on next");
+			Thread.sleep(2000);
 
-		pom6_cretad.create_buy_ad();
-		extentTest.info("click on create Ad button");
-		Thread.sleep(1000);
+			pom6_cretad.click_on_remark();
+			//Thread.sleep(2000);
+
+			pom6_cretad.Enter_in_remark();
+			extentTest.info("Entered Remark");
+			logger.info("Remark entered sucessfully...!");
+			//Thread.sleep(2000);
+
+			pom6_cretad.create_buy_ad();
+			extentTest.info("click on create Ad button");
+			logger.info("click on create Ad button sucessfully...!");
 		}
 		catch(Exception Xyz) {
-			
+
 			Xyz.getStackTrace();
 			String getcause = Xyz.getLocalizedMessage();
 			System.out.println("issue cause is:-"+getcause);
 			extentTest.fail("Create_VIPS_Buy_Ad test case is fail due to"+getcause);
 		}
-		
+
 		String  ActualResult=driver.findElement(By.xpath("//p[@class='MuiTypography-root MuiTypography-body2 css-7i2tvn']")).getText();
 		String ExpectedResult="Add Created Successfully";
 		Assert.assertEquals(ActualResult, ExpectedResult);
 
-		
+
 
 	}
-   /*
+	/*
 	@AfterMethod
 	public void logout() throws InterruptedException{
 

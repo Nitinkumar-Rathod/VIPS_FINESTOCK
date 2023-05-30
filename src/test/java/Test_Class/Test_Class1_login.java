@@ -205,7 +205,6 @@ public class Test_Class1_login extends Base_class
 			pom6_cretad.Click_on_confirm();
 			extentTest.info("click on confirm Ad ");
 			logger.info("click on confirm Ad...");
-			Thread.sleep(1000);
 		}
 		catch(Exception Xyz) {
 

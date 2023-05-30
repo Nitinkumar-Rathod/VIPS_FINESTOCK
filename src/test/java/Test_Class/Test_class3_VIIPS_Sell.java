@@ -2,6 +2,8 @@ package Test_Class;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -34,6 +36,9 @@ import POM_Classes.pom7_create_bye_Ad;
 
 public class Test_class3_VIIPS_Sell extends Base_class 
 {
+	// create object  logger class
+	Logger logger = (Logger) LogManager.getLogger("Test_class3_VIIPS_Sell");
+
 
 	public Login_Pom1 loginp1 ;
 	public pom2_Home  Homep2;
@@ -49,6 +54,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 	public void open_browser(ITestContext Context) throws InterruptedException {
 
 		initilize_browser (Context);
+		logger.info("initilize_browser sucessfully...!");
 
 		loginp1 = new Login_Pom1 (driver);
 
@@ -73,10 +79,13 @@ public class Test_class3_VIIPS_Sell extends Base_class
 	public void Login () throws IOException {
 
 		loginp1.enter_usr_name(Libriary_File.Utility_class.get_datafrom_propertyfile("UN"));
+		logger.info("Entered Username....!");
 
 		loginp1.enter_Pass(Libriary_File.Utility_class.get_datafrom_propertyfile("PSW"));
+		logger.info("Entered Passward....!");
 
 		loginp1.click_on_login();
+		logger.info("Login sucessful....!");
 
 	}
 	/*
@@ -116,6 +125,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			CretAd.click_on_P2P();
 			extentTest.info("click on P2P");
+			logger.info("click on P2P Sucessfully");
 			Thread.sleep(8000);
 
 			CretAd.Click_on_check_box();
@@ -123,13 +133,14 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			CretAd.Click_on_confirm();
 			extentTest.info("click on check box and confirm");
+			logger.info("click on check box and confirm");
 			Thread.sleep(1000);
 
 			clickCretAd.click_on_CrreateAd();
-			//Thread.sleep(2000);
+			Thread.sleep(1000);
 
 			clickCretAd.click_on_drpdnvips();
-			//Thread.sleep(2000);
+			Thread.sleep(2000);
 
 			clickCretAd.click_on_VIPS();
 			extentTest.info("click on VIPS");
@@ -140,6 +151,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			clickCretAd.enter_price();
 			extentTest.info("entered price");
+			logger.info("Price Entered");
 			//Thread.sleep(2000);
 
 			clickCretAd.click_on_next();
@@ -150,6 +162,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			pom5_cretad_VIPS.Enter_Amount();
 			extentTest.info("entered vips amount");
+			logger.info("Price Entered...!");
 			//Thread.sleep(2000);
 
 			pom5_cretad_VIPS.click_on_min_amount();
@@ -163,6 +176,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			pom5_cretad_VIPS.Enter_MaxAmount();
 			extentTest.info("entered min and max amount");
+			logger.info("entered min and max amount....!");
 			//Thread.sleep(2000);
 
 			pom5_cretad.click_payment_method();
@@ -176,6 +190,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 
 			pom5_cretad.Add_method();
 			extentTest.info("payment method selected");
+			logger.info("Payment Method Added");
 			//Thread.sleep(2000);
 
 			pom5_cretad.next_click();
@@ -191,8 +206,8 @@ public class Test_class3_VIIPS_Sell extends Base_class
 			extentTest.info("click on next");
 
 			pom6_cretad.Click_on_confirm();
-			extentTest.info("click on confire man create ad");
-			Thread.sleep(1000);
+			extentTest.info("click on confirm and create ad");
+			logger.info("click on confirm and create ad....!");
 
 		}
 		catch(Exception Xyz) {

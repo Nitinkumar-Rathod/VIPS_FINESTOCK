@@ -16,7 +16,7 @@ public class pom4_create_buyAd {
 
 	@FindBy(xpath="(//div[@ROLE='button'])[2]") private WebElement Dropdown_vips;
 
-	@FindBy(xpath="(//ul[@role='listbox']//li)[2]") private WebElement VIPS;
+	@FindBy(xpath="(//ul[@role='listbox']//li)[3]") private WebElement VIPS;
 
 	@FindBy(xpath="(//div[@class='MuiStack-root css-djkqj9']//input)[4]") private WebElement clickPrice;
 
