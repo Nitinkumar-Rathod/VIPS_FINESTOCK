@@ -15,6 +15,8 @@ public class Pom5_CreateAd {
 
 	@FindBy(xpath="//input[@placeholder='Min amount']") private WebElement min_Amount;
 
+	@FindBy(xpath="(//div[@class='MuiAlert-message css-xdtuwd']//h6)[2]") private WebElement Total_Amount;
+
 	@FindBy(xpath="//input[@placeholder='Max amount']") private WebElement click_max_Amount;
 
 	@FindBy(xpath="//input[@placeholder='Max amount']") private WebElement max_Amount;
@@ -44,7 +46,11 @@ public class Pom5_CreateAd {
 
 	public void Enter_Amount() {
 
-		Amount.sendKeys("10");
+		int min=10;
+		int max=12;
+		int b=(int)(Math.random()*(max-min)+min);
+
+		Amount.sendKeys(Integer.toString(b));
 
 	}
 	public void click_on_min_amount() {
@@ -53,16 +59,23 @@ public class Pom5_CreateAd {
 	}
 	public void Enter_minAmount() {
 
-		min_Amount.sendKeys("100");
+		int min=100;
+		int max=100;
+		int b=(int)(Math.random()*(max-min)+min);
+
+		min_Amount.sendKeys(Integer.toString(b));
 
 	}
 	public void click_on_max_amount() {
 
 		click_max_Amount.click();
 	}
-	public void Enter_MaxAmount() {
+	public void Totalamt_Max_Amt() {
 
-		max_Amount.sendKeys("742.50");
+		String TotlAmt =Total_Amount.getText();
+		String finalAmt = TotlAmt.substring(0, TotlAmt.indexOf(' '));
+
+		max_Amount.sendKeys(finalAmt);
 
 	}
 	public void click_payment_method() {
@@ -88,5 +101,14 @@ public class Pom5_CreateAd {
 		Next.click();
 
 	}
+	/*public void Totalamt() {
+
+		String TotlAmt =Total_Amount.getText();
+		String finalAmt = TotlAmt.substring(0, TotlAmt.indexOf(' '));
+
+		System.out.println(finalAmt);
+
+	}*/
+
 
 }

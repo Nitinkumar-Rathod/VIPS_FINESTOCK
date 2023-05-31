@@ -62,7 +62,11 @@ public class pom4_create_buyAd {
 	}
 	public void enter_price () {
 
-		Price.sendKeys("2.50");
+		int min=2;
+		int max=3;
+		int b= (int)(Math.random()*(max-min)+min);
+		Price.sendKeys(Integer.toString(b));
+
 	}
 	public void click_on_next () {
 

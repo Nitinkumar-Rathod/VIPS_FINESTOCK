@@ -50,7 +50,11 @@ public class pom7_create_bye_Ad {
 	}
 	public void enter_price () {
 
-		Price.sendKeys("75");
+		int min=50;
+		int max=120;
+		int b = (int)(Math.random()*(max-min)+min);
+
+		Price.sendKeys(Integer.toString(b));
 	}
 	public void click_on_next () {
 

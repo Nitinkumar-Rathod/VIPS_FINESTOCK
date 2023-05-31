@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-30T17:14:19 IST" name="Test_Suite" finished-at="2023-05-30T17:16:06 IST" duration-ms="107178">
+  <suite started-at="2023-05-31T13:08:55 IST" name="Test_Suite" finished-at="2023-05-31T13:10:43 IST" duration-ms="107997">
     <groups>
     </groups>
-    <test started-at="2023-05-30T17:14:19 IST" name="Create_Sell_Ad" finished-at="2023-05-30T17:14:49 IST" duration-ms="30305">
+    <test started-at="2023-05-31T13:08:55 IST" name="Create_Sell_Ad" finished-at="2023-05-31T13:09:26 IST" duration-ms="31330">
       <class name="Test_Class.Test_Class1_login">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-30T17:14:19 IST" name="open_browser" finished-at="2023-05-30T17:14:21 IST" duration-ms="2687" status="PASS">
+        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:55 IST" name="open_browser" finished-at="2023-05-31T13:08:58 IST" duration-ms="3262" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6ae6d078]]>
+                <![CDATA[org.testng.TestRunner@210d3a42]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-30T17:14:21 IST" name="Login" finished-at="2023-05-30T17:14:22 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:58 IST" name="Login" finished-at="2023-05-31T13:08:58 IST" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Create_Sell_Ad()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-30T17:14:22 IST" name="Create_Sell_Ad" finished-at="2023-05-30T17:14:49 IST" duration-ms="27233" status="PASS">
+        <test-method signature="Create_Sell_Ad()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:58 IST" name="Create_Sell_Ad" finished-at="2023-05-31T13:09:26 IST" duration-ms="27634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_Sell_Ad -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-30T17:14:49 IST" name="checkStatus" finished-at="2023-05-30T17:14:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:09:26 IST" name="checkStatus" finished-at="2023-05-31T13:09:26 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,34 +42,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-30T17:14:49 IST" name="teardown" finished-at="2023-05-30T17:14:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:09:26 IST" name="teardown" finished-at="2023-05-31T13:09:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Test_Class.Test_Class1_login -->
     </test> <!-- Create_Sell_Ad -->
-    <test started-at="2023-05-30T17:14:49 IST" name="Create_BUY_Ad" finished-at="2023-05-30T17:15:14 IST" duration-ms="25262">
+    <test started-at="2023-05-31T13:09:26 IST" name="Create_BUY_Ad" finished-at="2023-05-31T13:09:51 IST" duration-ms="25402">
       <class name="Test_Class.Test_class2">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-30T17:14:49 IST" name="open_browser" finished-at="2023-05-30T17:14:50 IST" duration-ms="1394" status="PASS">
+        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:26 IST" name="open_browser" finished-at="2023-05-31T13:09:27 IST" duration-ms="1305" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5f1f0ee6]]>
+                <![CDATA[org.testng.TestRunner@69de72ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-30T17:14:50 IST" name="Login" finished-at="2023-05-30T17:14:51 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:27 IST" name="Login" finished-at="2023-05-31T13:09:28 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Create_BUY_Ad()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-30T17:14:51 IST" name="Create_BUY_Ad" finished-at="2023-05-30T17:15:14 IST" duration-ms="23481" status="PASS">
+        <test-method signature="Create_BUY_Ad()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:28 IST" name="Create_BUY_Ad" finished-at="2023-05-31T13:09:51 IST" duration-ms="23730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_BUY_Ad -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-30T17:15:14 IST" name="checkStatus" finished-at="2023-05-30T17:15:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:51 IST" name="teardown" finished-at="2023-05-31T13:09:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:51 IST" name="checkStatus" finished-at="2023-05-31T13:09:51 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,34 +89,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-30T17:15:14 IST" name="teardown" finished-at="2023-05-30T17:15:14 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- Test_Class.Test_class2 -->
     </test> <!-- Create_BUY_Ad -->
-    <test started-at="2023-05-30T17:15:14 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-30T17:15:40 IST" duration-ms="26001">
+    <test started-at="2023-05-31T13:09:51 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-31T13:10:17 IST" duration-ms="25739">
       <class name="Test_Class.Test_class3_VIIPS_Sell">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-30T17:15:14 IST" name="open_browser" finished-at="2023-05-30T17:15:16 IST" duration-ms="1542" status="PASS">
+        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:51 IST" name="open_browser" finished-at="2023-05-31T13:09:53 IST" duration-ms="1449" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@326706d]]>
+                <![CDATA[org.testng.TestRunner@21c99abf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-30T17:15:16 IST" name="Login" finished-at="2023-05-30T17:15:16 IST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:53 IST" name="Login" finished-at="2023-05-31T13:09:53 IST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Create_VIPS_Sell_Ad()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-30T17:15:16 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-30T17:15:40 IST" duration-ms="24078" status="PASS">
+        <test-method signature="Create_VIPS_Sell_Ad()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:53 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-31T13:10:17 IST" duration-ms="23869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_VIPS_Sell_Ad -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-30T17:15:40 IST" name="checkStatus" finished-at="2023-05-30T17:15:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:10:17 IST" name="teardown" finished-at="2023-05-31T13:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:10:17 IST" name="checkStatus" finished-at="2023-05-31T13:10:17 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,42 +132,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-30T17:15:40 IST" name="teardown" finished-at="2023-05-30T17:15:40 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- Test_Class.Test_class3_VIIPS_Sell -->
     </test> <!-- Create_VIPS_Sell_Ad -->
-    <test started-at="2023-05-30T17:15:40 IST" name="Create_VIPS_BUY_Ad" finished-at="2023-05-30T17:16:06 IST" duration-ms="25590">
+    <test started-at="2023-05-31T13:10:17 IST" name="Create_VIPS_BUY_Ad" finished-at="2023-05-31T13:10:43 IST" duration-ms="25490">
       <class name="Test_Class.Test_class4_VIIPS_Buy">
-        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:14:19 IST" name="initialiseExtentReports" finished-at="2023-05-30T17:14:19 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:08:54 IST" name="initialiseExtentReports" finished-at="2023-05-31T13:08:55 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseExtentReports -->
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:15:40 IST" name="open_browser" finished-at="2023-05-30T17:15:42 IST" duration-ms="1582" status="PASS">
+        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:17 IST" name="open_browser" finished-at="2023-05-31T13:10:19 IST" duration-ms="1600" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@76fc5687]]>
+                <![CDATA[org.testng.TestRunner@6d6f6ca9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:15:42 IST" name="Login" finished-at="2023-05-30T17:15:43 IST" duration-ms="589" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:19 IST" name="Login" finished-at="2023-05-31T13:10:19 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Create_VIPS_Buy_Ad()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:15:43 IST" name="Create_VIPS_Buy_Ad" finished-at="2023-05-30T17:16:06 IST" duration-ms="23418" status="PASS">
+        <test-method signature="Create_VIPS_Buy_Ad()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:19 IST" name="Create_VIPS_Buy_Ad" finished-at="2023-05-31T13:10:43 IST" duration-ms="23434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_VIPS_Buy_Ad -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:16:06 IST" name="teardown" finished-at="2023-05-30T17:16:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:16:06 IST" name="checkStatus" finished-at="2023-05-30T17:16:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="checkStatus" finished-at="2023-05-31T13:10:43 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +175,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-30T17:16:06 IST" name="generateExtentReports" finished-at="2023-05-30T17:16:07 IST" duration-ms="712" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="teardown" finished-at="2023-05-31T13:10:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="generateExtentReports" finished-at="2023-05-31T13:10:43 IST" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateExtentReports -->

@@ -179,7 +179,7 @@ public class Test_class2 extends Base_class
 			pom5_cretad.click_on_max_amount();
 			//Thread.sleep(2000);
 
-			pom5_cretad.Enter_MaxAmount();
+			pom5_cretad.Totalamt_Max_Amt();
 			extentTest.info("Entered Maaximum Amount");
 			logger.info("min amount Entered sucessfully");
 

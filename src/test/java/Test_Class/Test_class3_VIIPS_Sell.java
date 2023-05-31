@@ -174,7 +174,7 @@ public class Test_class3_VIIPS_Sell extends Base_class
 			pom5_cretad_VIPS.click_on_max_amount();
 			//Thread.sleep(1000);
 
-			pom5_cretad_VIPS.Enter_MaxAmount();
+			pom5_cretad_VIPS.Totalamt_Max_Amt();
 			extentTest.info("entered min and max amount");
 			logger.info("entered min and max amount....!");
 			//Thread.sleep(2000);

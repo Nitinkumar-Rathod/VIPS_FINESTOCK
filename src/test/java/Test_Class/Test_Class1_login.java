@@ -34,6 +34,7 @@ import POM_Classes.Login_Pom1;
 import POM_Classes.Pom3_CreateAd;
 import POM_Classes.Pom4_CreateAd;
 import POM_Classes.Pom5_CreateAd;
+import POM_Classes.Pom5_CreateAd_VIPS;
 import POM_Classes.pom2_Home;
 import POM_Classes.pom6_createad;
 import POM_Classes.pom7_create_bye_Ad;
@@ -53,6 +54,7 @@ public class Test_Class1_login extends Base_class
 	public Pom5_CreateAd pom5_cretad;
 	public pom6_createad pom6_cretad;
 	public pom7_create_bye_Ad pom7_cretad;
+	public Pom5_CreateAd_VIPS pom5vips_cretad;
 
 
 	@BeforeClass
@@ -76,6 +78,7 @@ public class Test_Class1_login extends Base_class
 
 		pom7_cretad =new pom7_create_bye_Ad (driver);
 
+		pom5vips_cretad =new Pom5_CreateAd_VIPS (driver);
 
 	}
 
@@ -169,8 +172,11 @@ public class Test_Class1_login extends Base_class
 
 			pom5_cretad.click_on_max_amount();
 			//Thread.sleep(3000);
+			
+			//pom5vips_cretad.Totalamt();
 
-			pom5_cretad.Enter_MaxAmount();
+
+			pom5_cretad.Totalamt_Max_Amt();
 			extentTest.info("Entered min and max amount");
 			logger.info("Entered Min and Max Amount...");
 
@@ -205,6 +211,9 @@ public class Test_Class1_login extends Base_class
 			pom6_cretad.Click_on_confirm();
 			extentTest.info("click on confirm Ad ");
 			logger.info("click on confirm Ad...");
+			
+			
+			
 		}
 		catch(Exception Xyz) {
 
