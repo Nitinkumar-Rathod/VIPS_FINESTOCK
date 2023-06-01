@@ -7,7 +7,7 @@
 
 		<classes>
 
-			<class name="Test_Class.Test_class3_VIIPS_Sell" />
+			<class name="Test_Class.Test_class5_Buy_order" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

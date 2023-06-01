@@ -62,7 +62,7 @@ public class Test_Class1_login extends Base_class
 
 		initilize_browser (Context);
 
-		logger.info("Browser open sucessfully....");
+		logger.info("Browser open sucessfully....!");
 
 		loginp1 = new Login_Pom1 (driver);
 

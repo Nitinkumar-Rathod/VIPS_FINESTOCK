@@ -1,189 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-31T13:08:55 IST" name="Test_Suite" finished-at="2023-05-31T13:10:43 IST" duration-ms="107997">
+  <suite started-at="2023-06-01T17:21:24 IST" name="Suite" finished-at="2023-06-01T17:21:49 IST" duration-ms="25766">
     <groups>
     </groups>
-    <test started-at="2023-05-31T13:08:55 IST" name="Create_Sell_Ad" finished-at="2023-05-31T13:09:26 IST" duration-ms="31330">
-      <class name="Test_Class.Test_Class1_login">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:55 IST" name="open_browser" finished-at="2023-05-31T13:08:58 IST" duration-ms="3262" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@210d3a42]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:58 IST" name="Login" finished-at="2023-05-31T13:08:58 IST" duration-ms="411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Create_Sell_Ad()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:08:58 IST" name="Create_Sell_Ad" finished-at="2023-05-31T13:09:26 IST" duration-ms="27634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_Sell_Ad -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:09:26 IST" name="checkStatus" finished-at="2023-05-31T13:09:26 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test_Class.Test_Class1_login.Create_Sell_Ad() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Create_Sell_Ad status=SUCCESS method=Test_Class1_login.Create_Sell_Ad()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_Class1_login@3faf2e7d]" started-at="2023-05-31T13:09:26 IST" name="teardown" finished-at="2023-05-31T13:09:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Test_Class.Test_Class1_login -->
-    </test> <!-- Create_Sell_Ad -->
-    <test started-at="2023-05-31T13:09:26 IST" name="Create_BUY_Ad" finished-at="2023-05-31T13:09:51 IST" duration-ms="25402">
-      <class name="Test_Class.Test_class2">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:26 IST" name="open_browser" finished-at="2023-05-31T13:09:27 IST" duration-ms="1305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@69de72ec]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:27 IST" name="Login" finished-at="2023-05-31T13:09:28 IST" duration-ms="366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Create_BUY_Ad()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:28 IST" name="Create_BUY_Ad" finished-at="2023-05-31T13:09:51 IST" duration-ms="23730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_BUY_Ad -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:51 IST" name="teardown" finished-at="2023-05-31T13:09:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class2@2f058b8a]" started-at="2023-05-31T13:09:51 IST" name="checkStatus" finished-at="2023-05-31T13:09:51 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test_Class.Test_class2.Create_BUY_Ad() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Create_BUY_Ad status=SUCCESS method=Test_class2.Create_BUY_Ad()[pri:0, instance:Test_Class.Test_class2@2f058b8a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatus -->
-      </class> <!-- Test_Class.Test_class2 -->
-    </test> <!-- Create_BUY_Ad -->
-    <test started-at="2023-05-31T13:09:51 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-31T13:10:17 IST" duration-ms="25739">
-      <class name="Test_Class.Test_class3_VIIPS_Sell">
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:51 IST" name="open_browser" finished-at="2023-05-31T13:09:53 IST" duration-ms="1449" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@21c99abf]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:53 IST" name="Login" finished-at="2023-05-31T13:09:53 IST" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Create_VIPS_Sell_Ad()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:09:53 IST" name="Create_VIPS_Sell_Ad" finished-at="2023-05-31T13:10:17 IST" duration-ms="23869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_VIPS_Sell_Ad -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:10:17 IST" name="teardown" finished-at="2023-05-31T13:10:17 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23]" started-at="2023-05-31T13:10:17 IST" name="checkStatus" finished-at="2023-05-31T13:10:17 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test_Class.Test_class3_VIIPS_Sell.Create_VIPS_Sell_Ad() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Create_VIPS_Sell_Ad status=SUCCESS method=Test_class3_VIIPS_Sell.Create_VIPS_Sell_Ad()[pri:0, instance:Test_Class.Test_class3_VIIPS_Sell@30ea8c23] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatus -->
-      </class> <!-- Test_Class.Test_class3_VIIPS_Sell -->
-    </test> <!-- Create_VIPS_Sell_Ad -->
-    <test started-at="2023-05-31T13:10:17 IST" name="Create_VIPS_BUY_Ad" finished-at="2023-05-31T13:10:43 IST" duration-ms="25490">
-      <class name="Test_Class.Test_class4_VIIPS_Buy">
-        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:08:54 IST" name="initialiseExtentReports" finished-at="2023-05-31T13:08:55 IST" duration-ms="146" status="PASS">
+    <test started-at="2023-06-01T17:21:24 IST" name="Test123" finished-at="2023-06-01T17:21:49 IST" duration-ms="25766">
+      <class name="Test_Class.Test_class5_Buy_order">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:24 IST" name="initialiseExtentReports" finished-at="2023-06-01T17:21:24 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseExtentReports -->
-        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:17 IST" name="open_browser" finished-at="2023-05-31T13:10:19 IST" duration-ms="1600" status="PASS">
+        <test-method is-config="true" signature="open_browser(org.testng.ITestContext)[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:24 IST" name="open_browser" finished-at="2023-06-01T17:21:27 IST" duration-ms="2860" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6d6f6ca9]]>
+                <![CDATA[org.testng.TestRunner@191ec193]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:19 IST" name="Login" finished-at="2023-05-31T13:10:19 IST" duration-ms="456" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:27 IST" name="Login" finished-at="2023-06-01T17:21:27 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Create_VIPS_Buy_Ad()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:19 IST" name="Create_VIPS_Buy_Ad" finished-at="2023-05-31T13:10:43 IST" duration-ms="23434" status="PASS">
+        <test-method signature="Complet_Buy_Order()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:27 IST" name="Complet_Buy_Order" finished-at="2023-06-01T17:21:49 IST" duration-ms="22435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Create_VIPS_Buy_Ad -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="checkStatus" finished-at="2023-05-31T13:10:43 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Complet_Buy_Order -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:49 IST" name="checkStatus" finished-at="2023-06-01T17:21:49 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test_Class.Test_class4_VIIPS_Buy.Create_VIPS_Buy_Ad() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
+                <![CDATA[public void Test_Class.Test_class5_Buy_order.Complet_Buy_Order() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=Create_VIPS_Buy_Ad status=SUCCESS method=Test_class4_VIIPS_Buy.Create_VIPS_Buy_Ad()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee] output={null}]]]>
+                <![CDATA[[TestResult name=Complet_Buy_Order status=SUCCESS method=Test_class5_Buy_order.Complet_Buy_Order()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="teardown" finished-at="2023-05-31T13:10:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:49 IST" name="teardown" finished-at="2023-06-01T17:21:49 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:Test_Class.Test_class4_VIIPS_Buy@53e211ee]" started-at="2023-05-31T13:10:43 IST" name="generateExtentReports" finished-at="2023-05-31T13:10:43 IST" duration-ms="748" status="PASS">
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:Test_Class.Test_class5_Buy_order@3faf2e7d]" started-at="2023-06-01T17:21:49 IST" name="generateExtentReports" finished-at="2023-06-01T17:21:50 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateExtentReports -->
-      </class> <!-- Test_Class.Test_class4_VIIPS_Buy -->
-    </test> <!-- Create_VIPS_BUY_Ad -->
-  </suite> <!-- Test_Suite -->
+      </class> <!-- Test_Class.Test_class5_Buy_order -->
+    </test> <!-- Test123 -->
+  </suite> <!-- Suite -->
 </testng-results>
