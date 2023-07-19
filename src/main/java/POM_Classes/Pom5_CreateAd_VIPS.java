@@ -36,8 +36,8 @@ public class Pom5_CreateAd_VIPS {
 
 	public void Enter_Amount() {
 
-		int min = 100;
-		int max=200;
+		int min =100;
+		int max=120;
 		int b = (int)(Math.random()*(max-min)+min);  // math class aahe random is a method which 
 		                                             //is present in Math class 
 		Amount.sendKeys(Integer.toString(b));

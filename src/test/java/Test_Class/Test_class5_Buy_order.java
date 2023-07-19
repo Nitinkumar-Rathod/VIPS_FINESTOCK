@@ -98,6 +98,15 @@ public class Test_class5_Buy_order extends Base_class
 				Buy_order.click_on_buy_order();
 				extentTest.info("select buy order");
 				logger.info("buy order select sucessfully....!");
+				Thread.sleep(5000);
+
+				Buy_order.click_on_all();
+				Thread.sleep(5000);
+
+				Buy_order.click_on_Buy_USDT();
+				Thread.sleep(5000);
+
+				Buy_order.click_on_Confirm_payment();
 				
 			}
 

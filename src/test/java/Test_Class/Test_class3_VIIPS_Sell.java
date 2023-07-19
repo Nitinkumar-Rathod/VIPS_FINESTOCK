@@ -137,15 +137,16 @@ public class Test_class3_VIIPS_Sell extends Base_class
 			Thread.sleep(1000);
 
 			clickCretAd.click_on_CrreateAd();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 
 			clickCretAd.click_on_drpdnvips();
 			Thread.sleep(2000);
 
 			clickCretAd.click_on_VIPS();
 			extentTest.info("click on VIPS");
+			
 			//Thread.sleep(2000);
-
+			
 			clickCretAd.click_price();
 			//Thread.sleep(2000);
 

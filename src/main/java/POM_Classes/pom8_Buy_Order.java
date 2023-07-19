@@ -14,6 +14,13 @@ public class pom8_Buy_Order {
 	@FindBy(xpath="(//button[@type='button'])[9]") private WebElement Buy_button2;
 	@FindBy(xpath="(//button[@type='button'])[10]") private WebElement Buy_button3;
 
+	@FindBy(xpath="(//div[@class='MuiStack-root css-1hu3gs']//button)[2]") private WebElement All_Button;
+
+	@FindBy(xpath="//button[@type='submit']") private WebElement Buy_USDT;
+
+	@FindBy(xpath="(//button[@type='button'])[7]") private WebElement Confirm_payment;
+
+	@FindBy(xpath="(//button[@type='button'])[13]") private WebElement Confirm;
 
 
 
@@ -55,6 +62,24 @@ public class pom8_Buy_Order {
 
 			System.err.println("Not a single seller is available");
 		}
+
+	}
+
+	public void click_on_all () {
+
+		All_Button.click();
+	}
+	public void click_on_Buy_USDT () {
+
+		Buy_USDT.click();
+	}
+	public void click_on_Confirm_payment () {
+
+		Confirm_payment.click();
+	}
+	public void click_on_Confirm() {
+
+		Confirm.click();
 	}
 
 }
