@@ -191,7 +191,7 @@ public class Test_class2 extends Base_class
 			pom5_cretad.click_dropdown();
 			Thread.sleep(2000);
 
-			pom5_cretad.select_payment_method();
+			pom5_cretad.select_payment_method("Paytm");
 			Thread.sleep(1000);
 
 			pom5_cretad.Add_method();

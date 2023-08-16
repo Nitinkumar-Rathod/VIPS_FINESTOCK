@@ -186,7 +186,7 @@ public class Test_Class1_login extends Base_class
 			pom5_cretad.click_dropdown();
 			Thread.sleep(2000);
 
-			pom5_cretad.select_payment_method();
+			pom5_cretad.select_payment_method("Google Pay");
 			Thread.sleep(2000);
 
 			pom5_cretad.Add_method();

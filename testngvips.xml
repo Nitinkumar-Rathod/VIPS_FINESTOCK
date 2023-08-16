@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test_Suite">
 
-	<test name="Create_Sell_Ad">
-		<parameter name="author" value="Nitinkumar" />
-		<classes>
-			<class name="Test_Class.Test_Class1_login" />
-		</classes>
-	</test> <!-- Test -->
+<test name="Create_Sell_Ad">
+  <parameter name="author" value="Nitinkumar" />
+    <classes>
+      <class name="Test_Class.Test_Class1_login"/>
+       </classes>
+       </test> <!-- Test -->
 </suite> <!-- Test_Suite -->
        

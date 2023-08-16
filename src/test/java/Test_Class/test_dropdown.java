@@ -1,11 +1,13 @@
 package Test_Class;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
@@ -28,7 +30,7 @@ public class test_dropdown extends Base_class
 	
 	
 	// create object  logger class
-		Logger logger = (Logger) LogManager.getLogger("Test_class3_VIIPS_Sell");
+		Logger logger = (Logger) LogManager.getLogger("test_dropdown");
 
 
 		public Login_Pom1 loginp1 ;
@@ -40,6 +42,7 @@ public class test_dropdown extends Base_class
 		public pom6_createad pom6_cretad;
 		public pom7_create_bye_Ad pom7_cretad;
 		public pom9_create_Dropdn pom9_Drpdn;
+
 
 
 		@BeforeClass
@@ -137,9 +140,11 @@ public class test_dropdown extends Base_class
 
 				clickCretAd.click_on_VIPS();
 				extentTest.info("click on VIPS");*/
+				pom9_Drpdn.click_drp();
 				
-				//Thread.sleep(2000);
-				pom9_Drpdn.click_on_CrreateAd();
+				Thread.sleep(2000);
+				
+				pom9_Drpdn.getopt("VIPS");
 				//Thread.sleep(2000);
 
 				clickCretAd.click_price();
@@ -181,7 +186,7 @@ public class test_dropdown extends Base_class
 				pom5_cretad.click_dropdown();
 				Thread.sleep(1000);
 
-				pom5_cretad.select_payment_method();
+				pom5_cretad.select_payment_method("UPI");
 				Thread.sleep(1000);
 
 				pom5_cretad.Add_method();
@@ -218,8 +223,6 @@ public class test_dropdown extends Base_class
 			String ExpectedResult="Add Created Successfully";
 			Assert.assertEquals(ActualResult, ExpectedResult);
 
-
-		
 
 		}
 		/*

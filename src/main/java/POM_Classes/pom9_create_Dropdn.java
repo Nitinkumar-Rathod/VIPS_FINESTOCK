@@ -14,9 +14,9 @@ import org.openqa.selenium.support.ui.Select;
 public class pom9_create_Dropdn {
 	
 	public WebDriver driver;
-	@FindBy(xpath="(//div[@ROLE='button'])[2]") private WebElement Dropdown_vips;
+	@FindBy(xpath="(//div[@aria-haspopup='listbox'])[2]") private WebElement Dropdown_vips;
 
-	@FindBy(xpath="(//ul[@role='listbox']//li)[2]") private WebElement VIPS;
+	@FindBy(xpath="//ul[@role='listbox']//li") private List<WebElement> options;
 	
 
 	public pom9_create_Dropdn(WebDriver driver)
@@ -26,28 +26,29 @@ public class pom9_create_Dropdn {
 
 	// utilize within method
 
-	public void click_on_CrreateAd() {
+	public void click_drp () {
+		
+		Dropdown_vips.click();
+		
+	
+	}
+	
+	public void getopt (String searchText) {
+		
+		for (WebElement opt : options) {
+            if (opt.getText().contains(searchText))// test class madhun VIPS yeil ithe
+            {
+                opt.click();
+                break;
+		
+		
+	}
+	
+		}
+	}
+		
 
-
-        // Find all dropdown elements excluding those with the "select" tag name
-        List<WebElement> dropdownElements = driver.findElements(By.xpath("(//div[@ROLE='button'])[2])"));
-
-        // Create an ArrayList to store the dropdown values
-        ArrayList<String> dropdownValues = new ArrayList<>();
-
-        // Iterate through each dropdown element and extract its value
-        for (WebElement dropdown : dropdownElements) {
-            String dropdownValue = dropdown.getAttribute("value");
-            if (dropdownValue != null && !dropdownValue.isEmpty()) {
-                dropdownValues.add(dropdownValue);
-            }
-        }
-
-        // Print the list of dropdown values
-        for (String value : dropdownValues) {
-            System.out.println(value);
-        }
-	      }
+	
 		
 	
 }

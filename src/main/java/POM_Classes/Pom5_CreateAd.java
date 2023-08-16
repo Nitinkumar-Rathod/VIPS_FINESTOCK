@@ -1,5 +1,7 @@
 package POM_Classes;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,7 +27,7 @@ public class Pom5_CreateAd {
 
 	@FindBy(xpath="(//div[@role='button'])[13]") private WebElement Drop_down;
 
-	@FindBy(xpath="(//ul[@role='listbox']//li)[1]") private WebElement payment_method;
+	@FindBy(xpath="//ul[@role='listbox']//li") private List<WebElement> payment_methods;
 
 	@FindBy(xpath="(//button[@type='button'])[13]") private WebElement Add;
 
@@ -87,10 +89,17 @@ public class Pom5_CreateAd {
 
 		Drop_down.click();		
 	}
-	public void select_payment_method () {
+	public void select_payment_method (String searchText) {
 
-		payment_method.click();
-	}
+		for (WebElement method : payment_methods) 
+		{
+			System.out.println("option :- " + method.getText());
+			if (method.getText().contains(searchText)) {
+				method.click();
+			break;
+			}
+			}	
+		}
 	public void Add_method () {
 
 		Add.click();

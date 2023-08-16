@@ -149,7 +149,7 @@ public class Test_class4_VIIPS_Buy   extends Base_class
 			clickCretAd.click_on_drpdnvips();
 			Thread.sleep(2000);
 
-			clickCretAd.click_on_VIPS();
+			clickCretAd.Click_on_vips("VIPS");
 			extentTest.info("Click on VIPS");
 			logger.info("Select VIPS...!");
 			//Thread.sleep(2000);
@@ -196,7 +196,7 @@ public class Test_class4_VIIPS_Buy   extends Base_class
 			pom5_cretad.click_dropdown();
 			//Thread.sleep(3000);
 
-			pom5_cretad.select_payment_method();
+			pom5_cretad.select_payment_method("Paytm");
 			Thread.sleep(1000);
 
 			pom5_cretad.Add_method();

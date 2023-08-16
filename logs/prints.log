@@ -1197,3 +1197,429 @@
 13:26:59.391 [main] INFO  Test_Class1_login - Entered price and click on next button...
 13:27:00.957 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
 13:27:05.652 [main] INFO  Test_Class1_login - Payment Method Added...
+12:22:10.866 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+12:22:11.376 [main] INFO  Test_Class1_login - Entered Username....!
+12:22:11.564 [main] INFO  Test_Class1_login - Entered Passward....!
+12:22:11.675 [main] INFO  Test_Class1_login - Login sucessful....!
+12:22:14.432 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+12:22:22.554 [main] INFO  Test_Class1_login - click on checkbox...
+12:22:27.625 [main] INFO  Test_Class1_login - click on Confirm...
+12:22:29.716 [main] INFO  Test_Class1_login - click on CrreateAd...
+12:22:31.328 [main] INFO  Test_Class1_login - Entered price and click on next button...
+12:22:32.776 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+12:22:37.453 [main] INFO  Test_Class1_login - Payment Method Added...
+12:22:40.426 [main] INFO  Test_Class1_login - Remark Entered...
+12:22:42.816 [main] INFO  Test_Class1_login - click on confirm Ad...
+16:03:47.821 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+16:03:48.080 [main] INFO  Test_Class1_login - Entered Username....!
+16:03:48.177 [main] INFO  Test_Class1_login - Entered Passward....!
+16:03:48.230 [main] INFO  Test_Class1_login - Login sucessful....!
+16:03:49.559 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+16:03:57.613 [main] INFO  Test_Class1_login - click on checkbox...
+16:04:02.655 [main] INFO  Test_Class1_login - click on Confirm...
+16:04:04.713 [main] INFO  Test_Class1_login - click on CrreateAd...
+16:04:05.296 [main] INFO  Test_Class1_login - Entered price and click on next button...
+16:04:06.128 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+16:04:10.444 [main] INFO  Test_Class1_login - Payment Method Added...
+16:04:13.026 [main] INFO  Test_Class1_login - Remark Entered...
+16:04:15.280 [main] INFO  Test_Class1_login - click on confirm Ad...
+16:04:18.866 [main] INFO  Test_class2 - Browser open sucessfully....
+16:04:19.103 [main] INFO  Test_class2 - Entered Username....!
+16:04:19.203 [main] INFO  Test_class2 - Entered Passward....!
+16:04:19.256 [main] INFO  Test_class2 - Login sucessful....!
+16:04:20.359 [main] INFO  Test_class2 - sucessfully click on P2P....
+16:04:33.495 [main] INFO  Test_class2 - Click on confirm button...!
+16:04:34.859 [main] INFO  Test_class2 - sucessfully click on buy button..!
+16:04:35.934 [main] INFO  Test_class2 - min amount Entered sucessfully
+16:04:36.317 [main] INFO  Test_class2 - min amount Entered sucessfully
+16:04:39.623 [main] INFO  Test_class2 - Payment method added sucessfully....!
+16:04:42.265 [main] INFO  Test_class2 - Remark entered sucessfully...!
+16:04:42.404 [main] INFO  Test_class2 - click on create Ad button sucessfully...!
+16:04:45.315 [main] INFO  Test_class3_VIIPS_Sell - initilize_browser sucessfully...!
+16:04:45.542 [main] INFO  Test_class3_VIIPS_Sell - Entered Username....!
+16:04:45.656 [main] INFO  Test_class3_VIIPS_Sell - Entered Passward....!
+16:04:45.714 [main] INFO  Test_class3_VIIPS_Sell - Login sucessful....!
+16:04:46.922 [main] INFO  Test_class3_VIIPS_Sell - click on P2P Sucessfully
+16:04:57.028 [main] INFO  Test_class3_VIIPS_Sell - click on check box and confirm
+16:05:02.663 [main] INFO  Test_class3_VIIPS_Sell - Price Entered
+16:05:04.141 [main] INFO  Test_class3_VIIPS_Sell - Price Entered...!
+16:05:04.727 [main] INFO  Test_class3_VIIPS_Sell - entered min and max amount....!
+16:05:08.053 [main] INFO  Test_class3_VIIPS_Sell - Payment Method Added
+16:05:09.900 [main] INFO  Test_class3_VIIPS_Sell - click on confirm and create ad....!
+16:05:13.152 [main] INFO  Test_class4_VIIPS_Buy - Brouser opened sucessfully...!
+16:05:13.420 [main] INFO  Test_class4_VIIPS_Buy - Entered Username....!
+16:05:13.539 [main] INFO  Test_class4_VIIPS_Buy - Entered Passward....!
+16:05:13.604 [main] INFO  Test_class4_VIIPS_Buy - Login sucessful....!
+16:05:15.409 [main] INFO  Test_class4_VIIPS_Buy - Click on p2p...!
+16:05:26.520 [main] INFO  Test_class4_VIIPS_Buy - select check box and click on confirm....!
+16:05:30.316 [main] INFO  Test_class4_VIIPS_Buy - Select VIPS...!
+16:05:30.679 [main] INFO  Test_class4_VIIPS_Buy - Price Entered...!
+16:05:32.153 [main] INFO  Test_class4_VIIPS_Buy - Amount Entered...!
+16:05:32.391 [main] INFO  Test_class4_VIIPS_Buy - Minimum Amount Entered...!
+16:05:32.738 [main] INFO  Test_class4_VIIPS_Buy - Maximum Amount Entered...!
+16:05:34.030 [main] INFO  Test_class4_VIIPS_Buy - payment method Selected...!
+16:05:36.492 [main] INFO  Test_class4_VIIPS_Buy - Remark Added...!
+16:05:36.610 [main] INFO  Test_class4_VIIPS_Buy - clcik on create Ad...!
+16:31:04.259 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+16:31:04.503 [main] INFO  Test_Class1_login - Entered Username....!
+16:31:04.598 [main] INFO  Test_Class1_login - Entered Passward....!
+16:31:04.653 [main] INFO  Test_Class1_login - Login sucessful....!
+16:31:06.263 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+16:31:14.328 [main] INFO  Test_Class1_login - click on checkbox...
+16:31:19.380 [main] INFO  Test_Class1_login - click on Confirm...
+16:31:21.446 [main] INFO  Test_Class1_login - click on CrreateAd...
+16:31:22.023 [main] INFO  Test_Class1_login - Entered price and click on next button...
+16:31:22.853 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+16:31:27.231 [main] INFO  Test_Class1_login - Payment Method Added...
+16:31:29.918 [main] INFO  Test_Class1_login - Remark Entered...
+16:31:32.136 [main] INFO  Test_Class1_login - click on confirm Ad...
+16:32:17.217 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:32:17.473 [main] INFO  test_dropdown - Entered Username....!
+16:32:17.571 [main] INFO  test_dropdown - Entered Passward....!
+16:32:17.629 [main] INFO  test_dropdown - Login sucessful....!
+16:32:21.303 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:32:31.416 [main] INFO  test_dropdown - click on check box and confirm
+16:45:44.035 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:45:44.299 [main] INFO  test_dropdown - Entered Username....!
+16:45:44.394 [main] INFO  test_dropdown - Entered Passward....!
+16:45:44.449 [main] INFO  test_dropdown - Login sucessful....!
+16:45:49.555 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:45:59.654 [main] INFO  test_dropdown - click on check box and confirm
+16:48:42.159 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:48:42.402 [main] INFO  test_dropdown - Entered Username....!
+16:48:42.497 [main] INFO  test_dropdown - Entered Passward....!
+16:48:42.552 [main] INFO  test_dropdown - Login sucessful....!
+16:48:44.370 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:48:54.485 [main] INFO  test_dropdown - click on check box and confirm
+16:50:47.945 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:50:48.187 [main] INFO  test_dropdown - Entered Username....!
+16:50:48.285 [main] INFO  test_dropdown - Entered Passward....!
+16:50:48.341 [main] INFO  test_dropdown - Login sucessful....!
+16:50:50.282 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:51:00.383 [main] INFO  test_dropdown - click on check box and confirm
+14:35:49.601 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+14:35:49.855 [main] INFO  test_dropdown - Entered Username....!
+14:35:49.954 [main] INFO  test_dropdown - Entered Passward....!
+14:35:50.006 [main] INFO  test_dropdown - Login sucessful....!
+14:35:53.831 [main] INFO  test_dropdown - click on P2P Sucessfully
+14:36:03.938 [main] INFO  test_dropdown - click on check box and confirm
+14:36:33.480 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+14:36:33.722 [main] INFO  test_dropdown - Entered Username....!
+14:36:33.813 [main] INFO  test_dropdown - Entered Passward....!
+14:36:33.872 [main] INFO  test_dropdown - Login sucessful....!
+14:36:35.526 [main] INFO  test_dropdown - click on P2P Sucessfully
+14:36:45.619 [main] INFO  test_dropdown - click on check box and confirm
+15:50:52.036 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+15:50:52.275 [main] INFO  test_dropdown - Entered Username....!
+15:50:52.377 [main] INFO  test_dropdown - Entered Passward....!
+15:50:52.434 [main] INFO  test_dropdown - Login sucessful....!
+15:50:54.053 [main] INFO  test_dropdown - click on P2P Sucessfully
+15:51:04.147 [main] INFO  test_dropdown - click on check box and confirm
+15:54:37.680 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+15:54:37.929 [main] INFO  test_dropdown - Entered Username....!
+15:54:38.032 [main] INFO  test_dropdown - Entered Passward....!
+15:54:38.086 [main] INFO  test_dropdown - Login sucessful....!
+15:54:39.388 [main] INFO  test_dropdown - click on P2P Sucessfully
+15:54:49.493 [main] INFO  test_dropdown - click on check box and confirm
+16:03:26.928 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:03:27.169 [main] INFO  test_dropdown - Entered Username....!
+16:03:27.268 [main] INFO  test_dropdown - Entered Passward....!
+16:03:27.323 [main] INFO  test_dropdown - Login sucessful....!
+16:03:35.954 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:03:46.079 [main] INFO  test_dropdown - click on check box and confirm
+16:05:03.331 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+16:05:03.579 [main] INFO  test_dropdown - Entered Username....!
+16:05:03.694 [main] INFO  test_dropdown - Entered Passward....!
+16:05:03.749 [main] INFO  test_dropdown - Login sucessful....!
+16:05:06.382 [main] INFO  test_dropdown - click on P2P Sucessfully
+16:05:16.488 [main] INFO  test_dropdown - click on check box and confirm
+17:54:38.290 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+17:54:38.527 [main] INFO  test_dropdown - Entered Username....!
+17:54:38.619 [main] INFO  test_dropdown - Entered Passward....!
+17:54:38.670 [main] INFO  test_dropdown - Login sucessful....!
+17:54:39.745 [main] INFO  test_dropdown - click on P2P Sucessfully
+17:54:49.856 [main] INFO  test_dropdown - click on check box and confirm
+18:00:25.791 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:00:26.020 [main] INFO  test_dropdown - Entered Username....!
+18:00:26.119 [main] INFO  test_dropdown - Entered Passward....!
+18:00:26.174 [main] INFO  test_dropdown - Login sucessful....!
+18:00:29.308 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:00:39.415 [main] INFO  test_dropdown - click on check box and confirm
+18:04:54.765 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:04:55.001 [main] INFO  test_dropdown - Entered Username....!
+18:04:55.091 [main] INFO  test_dropdown - Entered Passward....!
+18:04:55.146 [main] INFO  test_dropdown - Login sucessful....!
+18:04:57.816 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:05:07.923 [main] INFO  test_dropdown - click on check box and confirm
+18:11:01.446 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:11:01.709 [main] INFO  test_dropdown - Entered Username....!
+18:11:01.805 [main] INFO  test_dropdown - Entered Passward....!
+18:11:01.858 [main] INFO  test_dropdown - Login sucessful....!
+18:11:03.011 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:11:13.112 [main] INFO  test_dropdown - click on check box and confirm
+18:14:44.442 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:14:44.693 [main] INFO  test_dropdown - Entered Username....!
+18:14:44.787 [main] INFO  test_dropdown - Entered Passward....!
+18:14:44.843 [main] INFO  test_dropdown - Login sucessful....!
+18:14:46.346 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:14:56.447 [main] INFO  test_dropdown - click on check box and confirm
+18:28:46.923 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:28:47.162 [main] INFO  test_dropdown - Entered Username....!
+18:28:47.256 [main] INFO  test_dropdown - Entered Passward....!
+18:28:47.313 [main] INFO  test_dropdown - Login sucessful....!
+18:28:48.933 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:28:59.088 [main] INFO  test_dropdown - click on check box and confirm
+18:43:34.887 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+18:43:35.153 [main] INFO  test_dropdown - Entered Username....!
+18:43:35.249 [main] INFO  test_dropdown - Entered Passward....!
+18:43:35.315 [main] INFO  test_dropdown - Login sucessful....!
+18:43:36.868 [main] INFO  test_dropdown - click on P2P Sucessfully
+18:43:46.972 [main] INFO  test_dropdown - click on check box and confirm
+18:43:52.671 [main] INFO  test_dropdown - Price Entered
+18:43:54.101 [main] INFO  test_dropdown - Price Entered...!
+18:43:54.688 [main] INFO  test_dropdown - entered min and max amount....!
+18:43:57.994 [main] INFO  test_dropdown - Payment Method Added
+18:43:59.870 [main] INFO  test_dropdown - click on confirm and create ad....!
+19:29:11.156 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+19:29:11.627 [main] INFO  test_dropdown - Entered Username....!
+19:29:11.826 [main] INFO  test_dropdown - Entered Passward....!
+19:29:11.966 [main] INFO  test_dropdown - Login sucessful....!
+19:29:13.360 [main] INFO  test_dropdown - click on P2P Sucessfully
+19:29:23.530 [main] INFO  test_dropdown - click on check box and confirm
+19:29:29.409 [main] INFO  test_dropdown - Price Entered
+19:29:31.120 [main] INFO  test_dropdown - Price Entered...!
+19:29:32.241 [main] INFO  test_dropdown - entered min and max amount....!
+13:50:02.683 [main] INFO  test_dropdown - initilize_browser sucessfully...!
+13:50:03.101 [main] INFO  test_dropdown - Entered Username....!
+13:50:03.296 [main] INFO  test_dropdown - Entered Passward....!
+13:50:03.399 [main] INFO  test_dropdown - Login sucessful....!
+13:50:08.199 [main] INFO  test_dropdown - click on P2P Sucessfully
+13:50:18.417 [main] INFO  test_dropdown - click on check box and confirm
+13:50:24.326 [main] INFO  test_dropdown - Price Entered
+13:50:26.141 [main] INFO  test_dropdown - Price Entered...!
+13:50:27.267 [main] INFO  test_dropdown - entered min and max amount....!
+13:50:30.827 [main] INFO  test_dropdown - Payment Method Added
+13:50:33.220 [main] INFO  test_dropdown - click on confirm and create ad....!
+14:21:24.321 [main] INFO  Test_class3_VIIPS_Sell - initilize_browser sucessfully...!
+14:21:24.749 [main] INFO  Test_class3_VIIPS_Sell - Entered Username....!
+14:21:24.924 [main] INFO  Test_class3_VIIPS_Sell - Entered Passward....!
+14:21:25.027 [main] INFO  Test_class3_VIIPS_Sell - Login sucessful....!
+14:21:27.004 [main] INFO  Test_class3_VIIPS_Sell - click on P2P Sucessfully
+14:21:37.220 [main] INFO  Test_class3_VIIPS_Sell - click on check box and confirm
+14:21:43.279 [main] INFO  Test_class3_VIIPS_Sell - Price Entered
+14:21:45.023 [main] INFO  Test_class3_VIIPS_Sell - Price Entered...!
+14:21:46.115 [main] INFO  Test_class3_VIIPS_Sell - entered min and max amount....!
+14:21:49.727 [main] INFO  Test_class3_VIIPS_Sell - Payment Method Added
+14:21:52.218 [main] INFO  Test_class3_VIIPS_Sell - click on confirm and create ad....!
+14:22:49.643 [main] INFO  Test_class4_VIIPS_Buy - Brouser opened sucessfully...!
+14:22:50.111 [main] INFO  Test_class4_VIIPS_Buy - Entered Username....!
+14:22:50.282 [main] INFO  Test_class4_VIIPS_Buy - Entered Passward....!
+14:22:50.382 [main] INFO  Test_class4_VIIPS_Buy - Login sucessful....!
+14:22:52.189 [main] INFO  Test_class4_VIIPS_Buy - Click on p2p...!
+14:23:03.363 [main] INFO  Test_class4_VIIPS_Buy - select check box and click on confirm....!
+14:23:07.804 [main] INFO  Test_class4_VIIPS_Buy - Select VIPS...!
+14:23:08.245 [main] INFO  Test_class4_VIIPS_Buy - Price Entered...!
+14:23:09.925 [main] INFO  Test_class4_VIIPS_Buy - Amount Entered...!
+14:23:10.322 [main] INFO  Test_class4_VIIPS_Buy - Minimum Amount Entered...!
+14:23:10.966 [main] INFO  Test_class4_VIIPS_Buy - Maximum Amount Entered...!
+14:23:12.686 [main] INFO  Test_class4_VIIPS_Buy - payment method Selected...!
+14:23:15.461 [main] INFO  Test_class4_VIIPS_Buy - Remark Added...!
+14:23:15.684 [main] INFO  Test_class4_VIIPS_Buy - clcik on create Ad...!
+14:25:05.645 [main] INFO  Test_class4_VIIPS_Buy - Brouser opened sucessfully...!
+14:25:06.091 [main] INFO  Test_class4_VIIPS_Buy - Entered Username....!
+14:25:06.272 [main] INFO  Test_class4_VIIPS_Buy - Entered Passward....!
+14:25:06.375 [main] INFO  Test_class4_VIIPS_Buy - Login sucessful....!
+14:25:08.492 [main] INFO  Test_class4_VIIPS_Buy - Click on p2p...!
+14:25:19.683 [main] INFO  Test_class4_VIIPS_Buy - select check box and click on confirm....!
+14:25:23.894 [main] INFO  Test_class4_VIIPS_Buy - Select VIPS...!
+14:25:24.338 [main] INFO  Test_class4_VIIPS_Buy - Price Entered...!
+14:25:26.027 [main] INFO  Test_class4_VIIPS_Buy - Amount Entered...!
+14:25:26.423 [main] INFO  Test_class4_VIIPS_Buy - Minimum Amount Entered...!
+14:25:27.192 [main] INFO  Test_class4_VIIPS_Buy - Maximum Amount Entered...!
+14:25:28.962 [main] INFO  Test_class4_VIIPS_Buy - payment method Selected...!
+14:25:31.838 [main] INFO  Test_class4_VIIPS_Buy - Remark Added...!
+14:25:32.043 [main] INFO  Test_class4_VIIPS_Buy - clcik on create Ad...!
+14:27:58.118 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+14:27:58.567 [main] INFO  Test_Class1_login - Entered Username....!
+14:27:58.776 [main] INFO  Test_Class1_login - Entered Passward....!
+14:27:58.919 [main] INFO  Test_Class1_login - Login sucessful....!
+14:28:01.050 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+14:28:09.161 [main] INFO  Test_Class1_login - click on checkbox...
+14:28:14.247 [main] INFO  Test_Class1_login - click on Confirm...
+14:28:16.341 [main] INFO  Test_Class1_login - click on CrreateAd...
+14:28:17.462 [main] INFO  Test_Class1_login - Entered price and click on next button...
+14:28:18.855 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+14:28:23.501 [main] INFO  Test_Class1_login - Payment Method Added...
+14:28:26.522 [main] INFO  Test_Class1_login - Remark Entered...
+14:28:28.929 [main] INFO  Test_Class1_login - click on confirm Ad...
+14:28:32.470 [main] INFO  Test_class2 - Browser open sucessfully....
+14:28:32.889 [main] INFO  Test_class2 - Entered Username....!
+14:28:33.068 [main] INFO  Test_class2 - Entered Passward....!
+14:28:33.179 [main] INFO  Test_class2 - Login sucessful....!
+14:28:34.419 [main] INFO  Test_class2 - sucessfully click on P2P....
+14:28:47.617 [main] INFO  Test_class2 - Click on confirm button...!
+14:28:49.544 [main] INFO  Test_class2 - sucessfully click on buy button..!
+14:28:51.238 [main] INFO  Test_class2 - min amount Entered sucessfully
+14:28:51.892 [main] INFO  Test_class2 - min amount Entered sucessfully
+14:28:55.567 [main] INFO  Test_class2 - Payment method added sucessfully....!
+14:28:58.477 [main] INFO  Test_class2 - Remark entered sucessfully...!
+14:28:58.718 [main] INFO  Test_class2 - click on create Ad button sucessfully...!
+14:29:02.278 [main] INFO  Test_class3_VIIPS_Sell - initilize_browser sucessfully...!
+14:29:02.658 [main] INFO  Test_class3_VIIPS_Sell - Entered Username....!
+14:29:02.855 [main] INFO  Test_class3_VIIPS_Sell - Entered Passward....!
+14:29:02.960 [main] INFO  Test_class3_VIIPS_Sell - Login sucessful....!
+14:29:04.158 [main] INFO  Test_class3_VIIPS_Sell - click on P2P Sucessfully
+14:29:14.343 [main] INFO  Test_class3_VIIPS_Sell - click on check box and confirm
+14:29:20.285 [main] INFO  Test_class3_VIIPS_Sell - Price Entered
+14:29:22.147 [main] INFO  Test_class3_VIIPS_Sell - Price Entered...!
+14:29:23.236 [main] INFO  Test_class3_VIIPS_Sell - entered min and max amount....!
+14:29:26.790 [main] INFO  Test_class3_VIIPS_Sell - Payment Method Added
+14:29:29.143 [main] INFO  Test_class3_VIIPS_Sell - click on confirm and create ad....!
+14:29:32.368 [main] INFO  Test_class4_VIIPS_Buy - Brouser opened sucessfully...!
+14:29:32.761 [main] INFO  Test_class4_VIIPS_Buy - Entered Username....!
+14:29:32.944 [main] INFO  Test_class4_VIIPS_Buy - Entered Passward....!
+14:29:33.045 [main] INFO  Test_class4_VIIPS_Buy - Login sucessful....!
+14:29:34.174 [main] INFO  Test_class4_VIIPS_Buy - Click on p2p...!
+14:29:45.365 [main] INFO  Test_class4_VIIPS_Buy - select check box and click on confirm....!
+14:29:49.688 [main] INFO  Test_class4_VIIPS_Buy - Select VIPS...!
+14:29:50.187 [main] INFO  Test_class4_VIIPS_Buy - Price Entered...!
+14:29:52.158 [main] INFO  Test_class4_VIIPS_Buy - Amount Entered...!
+14:29:52.651 [main] INFO  Test_class4_VIIPS_Buy - Minimum Amount Entered...!
+14:29:53.263 [main] INFO  Test_class4_VIIPS_Buy - Maximum Amount Entered...!
+14:29:54.913 [main] INFO  Test_class4_VIIPS_Buy - payment method Selected...!
+14:29:57.774 [main] INFO  Test_class4_VIIPS_Buy - Remark Added...!
+14:29:57.990 [main] INFO  Test_class4_VIIPS_Buy - clcik on create Ad...!
+16:38:48.313 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+16:38:48.572 [main] INFO  Test_Class1_login - Entered Username....!
+16:38:48.663 [main] INFO  Test_Class1_login - Entered Passward....!
+16:38:48.717 [main] INFO  Test_Class1_login - Login sucessful....!
+16:38:50.289 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+16:38:58.341 [main] INFO  Test_Class1_login - click on checkbox...
+16:39:03.391 [main] INFO  Test_Class1_login - click on Confirm...
+16:39:05.457 [main] INFO  Test_Class1_login - click on CrreateAd...
+16:39:06.017 [main] INFO  Test_Class1_login - Entered price and click on next button...
+16:39:06.790 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+16:40:58.907 [main] INFO  Test_class2 - Browser open sucessfully....
+16:40:59.111 [main] INFO  Test_class2 - Entered Username....!
+16:40:59.201 [main] INFO  Test_class2 - Entered Passward....!
+16:40:59.257 [main] INFO  Test_class2 - Login sucessful....!
+16:41:01.693 [main] INFO  Test_class2 - sucessfully click on P2P....
+16:41:14.821 [main] INFO  Test_class2 - Click on confirm button...!
+16:41:16.180 [main] INFO  Test_class2 - sucessfully click on buy button..!
+16:41:17.195 [main] INFO  Test_class2 - min amount Entered sucessfully
+16:41:17.534 [main] INFO  Test_class2 - min amount Entered sucessfully
+16:43:08.445 [main] INFO  Test_class3_VIIPS_Sell - initilize_browser sucessfully...!
+16:43:08.648 [main] INFO  Test_class3_VIIPS_Sell - Entered Username....!
+16:43:08.737 [main] INFO  Test_class3_VIIPS_Sell - Entered Passward....!
+16:43:08.789 [main] INFO  Test_class3_VIIPS_Sell - Login sucessful....!
+16:43:09.879 [main] INFO  Test_class3_VIIPS_Sell - click on P2P Sucessfully
+16:43:19.993 [main] INFO  Test_class3_VIIPS_Sell - click on check box and confirm
+16:43:25.607 [main] INFO  Test_class3_VIIPS_Sell - Price Entered
+16:43:27.021 [main] INFO  Test_class3_VIIPS_Sell - Price Entered...!
+16:43:27.597 [main] INFO  Test_class3_VIIPS_Sell - entered min and max amount....!
+16:48:00.839 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+16:48:01.088 [main] INFO  Test_Class1_login - Entered Username....!
+16:48:01.189 [main] INFO  Test_Class1_login - Entered Passward....!
+16:48:01.243 [main] INFO  Test_Class1_login - Login sucessful....!
+16:48:04.386 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+16:48:12.447 [main] INFO  Test_Class1_login - click on checkbox...
+16:48:17.487 [main] INFO  Test_Class1_login - click on Confirm...
+16:48:19.546 [main] INFO  Test_Class1_login - click on CrreateAd...
+16:48:20.141 [main] INFO  Test_Class1_login - Entered price and click on next button...
+16:48:21.008 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:06:32.771 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+17:06:33.004 [main] INFO  Test_Class1_login - Entered Username....!
+17:06:33.096 [main] INFO  Test_Class1_login - Entered Passward....!
+17:06:33.148 [main] INFO  Test_Class1_login - Login sucessful....!
+17:06:37.358 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+17:06:45.427 [main] INFO  Test_Class1_login - click on checkbox...
+17:06:50.476 [main] INFO  Test_Class1_login - click on Confirm...
+17:06:52.543 [main] INFO  Test_Class1_login - click on CrreateAd...
+17:06:53.101 [main] INFO  Test_Class1_login - Entered price and click on next button...
+17:06:53.893 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:10:31.848 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+17:10:32.137 [main] INFO  Test_Class1_login - Entered Username....!
+17:10:32.230 [main] INFO  Test_Class1_login - Entered Passward....!
+17:10:32.290 [main] INFO  Test_Class1_login - Login sucessful....!
+17:10:34.027 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+17:10:42.091 [main] INFO  Test_Class1_login - click on checkbox...
+17:10:47.132 [main] INFO  Test_Class1_login - click on Confirm...
+17:10:49.193 [main] INFO  Test_Class1_login - click on CrreateAd...
+17:10:49.837 [main] INFO  Test_Class1_login - Entered price and click on next button...
+17:10:50.702 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:13:56.284 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+17:13:56.542 [main] INFO  Test_Class1_login - Entered Username....!
+17:13:56.635 [main] INFO  Test_Class1_login - Entered Passward....!
+17:13:56.687 [main] INFO  Test_Class1_login - Login sucessful....!
+17:13:57.751 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+17:14:05.816 [main] INFO  Test_Class1_login - click on checkbox...
+17:14:10.868 [main] INFO  Test_Class1_login - click on Confirm...
+17:14:12.922 [main] INFO  Test_Class1_login - click on CrreateAd...
+17:14:13.468 [main] INFO  Test_Class1_login - Entered price and click on next button...
+17:14:14.236 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:14:18.643 [main] INFO  Test_Class1_login - Payment Method Added...
+17:14:21.274 [main] INFO  Test_Class1_login - Remark Entered...
+17:14:23.501 [main] INFO  Test_Class1_login - click on confirm Ad...
+17:19:15.406 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+17:19:15.671 [main] INFO  Test_Class1_login - Entered Username....!
+17:19:15.773 [main] INFO  Test_Class1_login - Entered Passward....!
+17:19:15.831 [main] INFO  Test_Class1_login - Login sucessful....!
+17:19:16.987 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+17:19:25.054 [main] INFO  Test_Class1_login - click on checkbox...
+17:19:30.098 [main] INFO  Test_Class1_login - click on Confirm...
+17:19:32.156 [main] INFO  Test_Class1_login - click on CrreateAd...
+17:19:32.782 [main] INFO  Test_Class1_login - Entered price and click on next button...
+17:19:33.549 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:19:37.997 [main] INFO  Test_Class1_login - Payment Method Added...
+17:19:40.655 [main] INFO  Test_Class1_login - Remark Entered...
+17:19:42.861 [main] INFO  Test_Class1_login - click on confirm Ad...
+17:22:53.454 [main] INFO  Test_Class1_login - Browser open sucessfully....!
+17:22:53.706 [main] INFO  Test_Class1_login - Entered Username....!
+17:22:53.806 [main] INFO  Test_Class1_login - Entered Passward....!
+17:22:53.858 [main] INFO  Test_Class1_login - Login sucessful....!
+17:22:54.949 [main] INFO  Test_Class1_login - sucessfully click on P2P....
+17:23:03.043 [main] INFO  Test_Class1_login - click on checkbox...
+17:23:08.092 [main] INFO  Test_Class1_login - click on Confirm...
+17:23:10.167 [main] INFO  Test_Class1_login - click on CrreateAd...
+17:23:10.727 [main] INFO  Test_Class1_login - Entered price and click on next button...
+17:23:11.523 [main] INFO  Test_Class1_login - Entered Min and Max Amount...
+17:23:15.928 [main] INFO  Test_Class1_login - Payment Method Added...
+17:23:18.578 [main] INFO  Test_Class1_login - Remark Entered...
+17:23:20.802 [main] INFO  Test_Class1_login - click on confirm Ad...
+17:23:23.820 [main] INFO  Test_class2 - Browser open sucessfully....
+17:23:24.038 [main] INFO  Test_class2 - Entered Username....!
+17:23:24.154 [main] INFO  Test_class2 - Entered Passward....!
+17:23:24.213 [main] INFO  Test_class2 - Login sucessful....!
+17:23:26.689 [main] INFO  Test_class2 - sucessfully click on P2P....
+17:23:39.799 [main] INFO  Test_class2 - Click on confirm button...!
+17:23:41.286 [main] INFO  Test_class2 - sucessfully click on buy button..!
+17:23:42.304 [main] INFO  Test_class2 - min amount Entered sucessfully
+17:23:42.668 [main] INFO  Test_class2 - min amount Entered sucessfully
+17:23:46.063 [main] INFO  Test_class2 - Payment method added sucessfully....!
+17:23:48.660 [main] INFO  Test_class2 - Remark entered sucessfully...!
+17:23:48.774 [main] INFO  Test_class2 - click on create Ad button sucessfully...!
+17:23:51.544 [main] INFO  Test_class3_VIIPS_Sell - initilize_browser sucessfully...!
+17:23:51.763 [main] INFO  Test_class3_VIIPS_Sell - Entered Username....!
+17:23:51.865 [main] INFO  Test_class3_VIIPS_Sell - Entered Passward....!
+17:23:51.930 [main] INFO  Test_class3_VIIPS_Sell - Login sucessful....!
+17:23:54.531 [main] INFO  Test_class3_VIIPS_Sell - click on P2P Sucessfully
+17:24:04.635 [main] INFO  Test_class3_VIIPS_Sell - click on check box and confirm
+17:24:10.376 [main] INFO  Test_class3_VIIPS_Sell - Price Entered
+17:24:11.829 [main] INFO  Test_class3_VIIPS_Sell - Price Entered...!
+17:24:12.428 [main] INFO  Test_class3_VIIPS_Sell - entered min and max amount....!
+17:24:15.778 [main] INFO  Test_class3_VIIPS_Sell - Payment Method Added
+17:24:17.637 [main] INFO  Test_class3_VIIPS_Sell - click on confirm and create ad....!
+17:24:20.801 [main] INFO  Test_class4_VIIPS_Buy - Brouser opened sucessfully...!
+17:24:21.174 [main] INFO  Test_class4_VIIPS_Buy - Entered Username....!
+17:24:21.348 [main] INFO  Test_class4_VIIPS_Buy - Entered Passward....!
+17:24:21.424 [main] INFO  Test_class4_VIIPS_Buy - Login sucessful....!
+17:24:22.526 [main] INFO  Test_class4_VIIPS_Buy - Click on p2p...!
+17:24:33.626 [main] INFO  Test_class4_VIIPS_Buy - select check box and click on confirm....!
+17:24:37.485 [main] INFO  Test_class4_VIIPS_Buy - Select VIPS...!
+17:24:37.910 [main] INFO  Test_class4_VIIPS_Buy - Price Entered...!
+17:24:39.343 [main] INFO  Test_class4_VIIPS_Buy - Amount Entered...!
+17:24:39.590 [main] INFO  Test_class4_VIIPS_Buy - Minimum Amount Entered...!
+17:24:39.958 [main] INFO  Test_class4_VIIPS_Buy - Maximum Amount Entered...!
+17:24:41.398 [main] INFO  Test_class4_VIIPS_Buy - payment method Selected...!
+17:24:43.955 [main] INFO  Test_class4_VIIPS_Buy - Remark Added...!
+17:24:44.104 [main] INFO  Test_class4_VIIPS_Buy - clcik on create Ad...!

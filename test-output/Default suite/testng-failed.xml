@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Class.Test_class2">
+      <class name="Test_Class.Test_Class1_login">
         <methods>
           <include name="teardown"/>
-          <include name="Create_BUY_Ad"/>
+          <include name="Create_Sell_Ad"/>
           <include name="Login"/>
           <include name="generateExtentReports"/>
-          <include name="open_browser"/>
           <include name="checkStatus"/>
           <include name="initialiseExtentReports"/>
+          <include name="open_browser"/>
         </methods>
-      </class> <!-- Test_Class.Test_class2 -->
+      </class> <!-- Test_Class.Test_Class1_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
